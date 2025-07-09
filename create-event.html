@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Event | Quicket Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="create-event.html" class="nav-link">Create Event</a></li>
+      <li><a href="#events" class="nav-link">Find Event</a></li>
+      <li><a href="#artists" class="nav-link">Resources</a></li>
+      <li><a href="#" class="nav-link">Company</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Create Your Event</h1>
+    <p>Start selling tickets in minutes with our powerful tools.</p>
+    <a href="#event-form" class="cta-button">Get Started</a>
+  </header>
+
+  <section id="event-form" class="form-section">
+    <h2>Event Details</h2>
+    <form>
+      <label for="event-name">Event Name</label>
+      <input type="text" id="event-name" name="event-name" required />
+
+      <label for="event-date">Date</label>
+      <input type="date" id="event-date" name="event-date" required />
+
+      <label for="event-location">Location</label>
+      <input type="text" id="event-location" name="event-location" required />
+
+      <label for="event-description">Description</label>
+      <textarea id="event-description" name="event-description" rows="5" required></textarea>
+
+      <button type="submit" class="submit-button">Create Event</button>
+    </form>
+  </section>
+
+  <!-- 🔥 Features Section -->
+  <section class="features-section">
+    <h2 class="features-heading">Features</h2>
+    <p class="features-subheading">Create your event, your way. No hold-ups. No hassles. No hidden fees.</p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>🎟️ Reserved Seating</h3>
+        <p>Create your perfect seating plan with our drag-and-drop feature.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📱 Ticket Scanning</h3>
+        <p>Scan tickets at the venue using our free mobile app.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🔁 Recurring Events</h3>
+        <p>Reuse setup for multi-day or repeated events. No need to rebuild.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📊 Real-Time Analytics</h3>
+        <p>Track visits, sales, check-ins, and more from your dashboard.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🔧 Integrated Tools</h3>
+        <p>Use API to sell tickets directly and track your database.</p>
+      </div>
+      <div class="feature-card">
+        <h3>💬 Support</h3>
+        <p>Get world-class support with a human touch.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
